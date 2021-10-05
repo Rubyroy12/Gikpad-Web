@@ -290,21 +290,21 @@ nav .collapse .media ul li {
     font-size: 25px;
 }
 
-.smedia .bi-facebook {
+.bi-facebook {
     color: #4267B2;
 }
 
-.smedia .bi-linkedin {
+.bi-linkedin {
     color: #2867B2;
 
 }
 
-.smedia .bi-twitter {
+.bi-twitter {
     color: #657786;
 
 }
 
-.smedia .bi-youtube {
+.bi-youtube {
     color: red;
 }
 
@@ -331,7 +331,7 @@ nav .collapse .media ul li {
 }
 
 thead {
-    background-color:#23395d;
+    background-color: #23395d;
 }
 
 tr:nth-child(even) {
@@ -343,9 +343,26 @@ tr:hover {
 }
 
 
-.reg h1{
-font-weight: bold;
+.reg h1 {
+    font-weight: bold;
 }
-.full-screen{
-    height:100vh;
+
+.full-screen {
+    height: 100vh;
+}
+
+.footer-media {
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.footer-media .bi {
+    font-size: 25px;
+}
+.card-footer {
+    background-color: #23395d;
+    color: white;
 }

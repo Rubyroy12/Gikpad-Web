@@ -349,3 +349,8 @@ font-weight: bold;
 .full-screen{
     height:100vh;
 }
+
+.footer-media .bi{
+    font-size: 20px;
+
+}
