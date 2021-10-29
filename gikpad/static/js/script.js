@@ -12,29 +12,6 @@ window.onscroll = function () {
     }
   }
   
-  //navbar links
-  
-  const navbar = document.querySelector(".navbar");
-  var a = navbar.querySelectorAll("a")
-  
-  a.forEach(function (element) {
-    element.addEventListener("click", function () {
-      for (let i = 0; i < a.length; i++) {
-        a[i].classList.remove("active")
-      }
-      this.classList.add("active");
-      document.querySelector(".navbar").classList.toggle("show");
-    })
-  })
-  
-  //Hamburger
-  
-  const hamBurger = document.querySelector(".hamburger");
-  
-  hamBurger.addEventListener("click", function () {
-    document.querySelector(".navbar").classList.toggle("show");
-  })
-
 
 var i = 0;
 var txt = 'We are Gikpad Technologies.';

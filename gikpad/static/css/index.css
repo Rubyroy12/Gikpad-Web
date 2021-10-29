@@ -31,6 +31,10 @@
     background-position: center;
     padding: 15px;
 }
+.intro{
+    height: 40vh;
+    top:30vh;
+}
 .home-illustrator{
     background-image: linear-gradient(rgba(24, 21, 21, 0.2), rgba(20, 17, 17, 0.2)), url('../img/Gikpad-illustrator2.jpg');
     background-size: cover;

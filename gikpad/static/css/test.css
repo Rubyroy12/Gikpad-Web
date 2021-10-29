@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
  
 .media {
@@ -25,11 +26,33 @@
 } 
 
 .wrapper {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/angelo.jpg');
-    min-height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/sebastian.jpg');
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     padding: 15px;
+}
+.intro{
+    height: 40vh;
+    top:30vh;
+    
+}
+.intro h1{
+    font-family:'Montserrat';
+    color:white;
+
+}
+
+.home-illustrator{
+    background-image: linear-gradient(rgba(78, 74, 74, 0.2), rgba(85, 78, 78, 0.2)), url('../img/Gikpad-illustrator2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    top:30vh;
+    border-radius: 30% 70% 53% 47% / 46% 16% 84% 54%  ;
+
+
 }
 
 .info {
@@ -384,8 +407,9 @@ tr:hover {
     height: 80vh;
 
 }
-.brand-name a img{
-    height: 150px;
-    width: 200px;
-    margin-bottom: 0;
+.service-header h2{
+    color: white;
+    display: flex;
+    align-items: z-end;
+    justify-content:baseline;
 }
