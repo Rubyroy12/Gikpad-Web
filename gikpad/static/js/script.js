@@ -34,3 +34,40 @@ window.onscroll = function () {
   hamBurger.addEventListener("click", function () {
     document.querySelector(".navbar").classList.toggle("show");
   })
+
+
+var i = 0;
+var txt = 'We are Gikpad Technologies.';
+var speed = 80;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("gikpad").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Hello World!')
+    .pauseFor(1000)
+    .typeString('Strings can be removed')
+    .pauseFor(2500)
+    .deleteChars(7)
+    .typeString('<strong>altered!</strong>')
+    .pauseFor(2500)
+    .start();
