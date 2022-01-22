@@ -14,7 +14,7 @@ window.onscroll = function () {
   
 
 var i = 0;
-var txt = 'We are Gikpad technologies.';
+var txt = 'We are Bewalt Limited.';
 var speed = 80;
 
 function typeWriter() {
@@ -24,13 +24,6 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
-
-
-
-
-
-
-
 
 
 
